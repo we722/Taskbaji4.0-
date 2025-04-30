@@ -9,10 +9,33 @@
 </head>
 <body>
   <div id="app">
-    <!-- Registration/Login, Dashboard, Task Page, Withdraw, Sidebar -->
-    <!-- This is a placeholder, full HTML structure will go here -->
-    <h1>স্বাগতম Taskbaji-তে</h1>
+    <!-- Sidebar -->
+    <div id="sidebar">
+      <ul>
+        <li><a href="#" id="dashboard-link">ড্যাশবোর্ড</a></li>
+        <li><a href="#" id="start-task-link">টাস্ক শুরু করুন</a></li>
+        <li><a href="#" id="withdraw-link">উইথড্র</a></li>
+        <li><a href="#" id="history-link">ইতিহাস</a></li>
+        <li><a href="#" id="profile-link">প্রোফাইল</a></li>
+        <li><a href="#" id="exit-link">বাহির যান</a></li>
+      </ul>
+    </div>
+
+    <!-- Main content -->
+    <div id="content">
+      <h1>স্বাগতম Taskbaji-তে</h1>
+      <div id="user-info">
+        <p id="user-points">পয়েন্ট: 0</p>
+        <p id="user-balance">ব্যালেন্স: ₹0</p>
+      </div>
+      
+      <!-- Dynamic content will be displayed here based on navigation -->
+      <div id="page-content">
+        <!-- Default content, like welcome message -->
+      </div>
+    </div>
   </div>
+
   <script src="script.js"></script>
 </body>
-</html>
+  </html>
